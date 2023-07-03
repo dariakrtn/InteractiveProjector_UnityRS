@@ -1,15 +1,4 @@
-﻿// Colormaps texture generated using this python script:
-
-// from PIL import Image
-// import matplotlib.cm as cm
-// import numpy as np
-// names = ['viridis', 'plasma', 'inferno', 'jet', 'rainbow', 'coolwarm', 'flag', 'gray']
-// def cm_array(m, size=256):
-//     return cm.ScalarMappable(cmap=getattr(cm, m)).to_rgba(range(size), bytes=True).reshape(1, size, 4)
-// Image.fromarray(np.vstack(map(cm_array, names)), mode='RGBA').save('colormaps.png')
-// print ','.join(map(lambda x: x.title(), names))
-
-Shader "Custom/Depth" {
+﻿Shader "Custom/Depth" {
 	Properties {
 		
 		[PerRendererData]

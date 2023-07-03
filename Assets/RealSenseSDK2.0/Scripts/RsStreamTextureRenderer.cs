@@ -69,7 +69,7 @@ public class RsStreamTextureRenderer : MonoBehaviour
     public FilterMode filterMode = FilterMode.Point;
 
     protected Texture2D texture;
-
+    public RenderTexture rendTexture;
 
     [Space]
     public TextureEvent textureBinding;
@@ -194,5 +194,9 @@ public class RsStreamTextureRenderer : MonoBehaviour
 
         texture.LoadRawTextureData(frame.Data, frame.Stride * frame.Height);
         texture.Apply();
+        
+        // translation from texture to render texture
+        Graphics.Blit(texture, rendTexture); 
+
     }
 }

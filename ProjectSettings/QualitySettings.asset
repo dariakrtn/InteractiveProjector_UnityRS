@@ -155,7 +155,7 @@ QualitySettings:
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 1
+    Android: 3
     CloudRendering: 2
     GameCoreScarlett: 2
     GameCoreXboxOne: 2
@@ -163,11 +163,11 @@ QualitySettings:
     Nintendo Switch: 1
     PS4: 2
     PS5: 2
-    Server: 0
+    Server: 3
     Stadia: 2
-    Standalone: 2
+    Standalone: 3
     WebGL: 1
-    Windows Store Apps: 2
+    Windows Store Apps: 3
     XboxOne: 2
-    iPhone: 1
+    iPhone: 3
     tvOS: 1

@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f8395e4599857704d889f76eb8a306b5, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _COLORMAP_JET
+  - _COLORMAP_GRAY
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,9 +31,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Colormap: 3
+    - _Colormap: 7
     - _DepthScale: 0.001
-    - _MaxRange: 1.4318504
-    - _MinRange: 0
-    m_Colors: []
+    - _MaxRange: 1.8571439
+    - _MinRange: 0.2857143
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
